@@ -95,11 +95,31 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-img {
-    width: 300px;
+.hero-illustration {
+    width: 320px;
+    aspect-ratio: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-illustration::before {
+    content: "";
+    position: absolute;
+    width: 135%;
+    height: 135%;
+    background-color: #4E5A34;
+    border-radius: 80%;
+    z-index: 0;
+}
+
+.hero-illustration img {
+    width: 100%;
     height: auto;
-    display: block;
-    backgound: transparent;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
 }
 
 a {
