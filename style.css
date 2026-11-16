@@ -1662,15 +1662,21 @@ blockquote cite {
         font-size: 0.97rem;
     }
 
-    .hero-illustration {
-        max-width: 420px;
-        margin-inline: auto;
-    }
-
     .literary-illustration {
         max-width: 100%;
     }
+    
+    .hero-illustration { 
+        width: min(55vw, 210px); 
+        margin: 15px auto; 
+        flex-shrink: 0; }
+    
+    .hero-illustration::before {
+        width: 85%;
+        height: 85%;
+    }
 
+    
 
     /* Sezioni */
 
