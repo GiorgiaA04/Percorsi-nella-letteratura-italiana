@@ -1,10 +1,4 @@
 /*PERCORSI NELLA LETTERATURA ITALIANA
-   Mi devo ricordare:
-   - Gestione della navigazione mobile.
-   - Aggiornamento degli attributi ARIA.
-   - Chiusura del menu con tastiera.
-   - Pagina corrente.
-
 INIZIALIZZAZIONE*/
   
 document.addEventListener("DOMContentLoaded", () => {
